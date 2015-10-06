@@ -1,4 +1,6 @@
-background: #44accf;	
+body {
+         background-color: #44accf;
+     }
 /*
 #box_1 { 
 	position: absolute;
