@@ -3,7 +3,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	width: 120px;
+	width: 200px;
 	height: 100px;
 	background: #ee3e64;
 }
@@ -11,28 +11,31 @@
 	position: absolute;
 	bottom: 0;
 	left: 200;
-	width: 120px;
+	width: 200px;
 	height: 100px;
 	background: #44accf;
 }
 #mywork { 
-	position: relative;
+	position: absolute;
+	bottom: 0;
 	left: 400;
-	width: 120px;
+	width: 200px;
 	height: 100px;
 	background: #b7d84b;
 }
 #activities { 
-	position: relative;
+	position: absolute;
+	bottom: 0;
 	left: 600;
-	width: 120px;
+	width: 200px;
 	height: 100px;
 	background: #ebde52;
 }
 #contact { 
-	position: relative;
+	position: absolute;
+	bottom: 0;
 	left: 800;
-	width: 120px;
+	width: 200px;
 	height: 100px;
 	background: #eace52;
 }
