@@ -2,7 +2,7 @@
 #about { 
 	position: absolute;
 	bottom: 0;
-	left: 100px;
+	left: 150px;
 	width: 200px;
 	height: 50px;
 	background: #ee3e64;
@@ -10,7 +10,7 @@
 #skills { 
 	position: absolute;
 	bottom: 0;
-	left: 300px;
+	left: 350px;
 	width: 200px;
 	height: 50px;
 	background: #44accf;
@@ -18,7 +18,7 @@
 #mywork { 
 	position: absolute;
 	bottom: 0;
-	left: 500px;
+	left: 550px;
 	width: 200px;
 	height: 50px;
 	background: #b7d84b;
@@ -26,7 +26,7 @@
 #activities { 
 	position: absolute;
 	bottom: 0;
-	left: 700px;
+	left: 750px;
 	width: 200px;
 	height: 50px;
 	background: #ebde52;
@@ -34,7 +34,7 @@
 #contact { 
 	position: absolute;
 	bottom: 0;
-	left: 900px;
+	left: 950px;
 	width: 200px;
 	height: 50px;
 	background: #eace52;
