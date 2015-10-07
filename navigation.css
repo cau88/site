@@ -46,7 +46,7 @@ a:link, a:visited {
 	height: 50px;
 }
 
-#about:hover, #skills:hover, #mywork:hover, #activities:hover, #contact:hover {
+a:hover {
           background-color: #7A991A;
       }
 
