@@ -1,5 +1,6 @@
 /*border box*/
 /*#box_1 { position: absolute; top: 10px; right: 10px; bottom: 10px; left: 10px; background: #251a9c; }*/
-#box_1 { position: absolute; top: 10px; right: 10px; bottom: 10px; left: 10px; background: #44accf; }
+/*#box_1 { position: absolute; top: 10px; right: 10px; bottom: 10px; left: 10px; background: #44accf; }*/
+#box_1 { position: absolute; top: 10px; right: 10px; bottom: 10px; left: 10px; background: #ffcc31; }
 /*inside box*/
 #box_2 { position: absolute; top: 20px; right: 20px; bottom: 20px; left: 20px; background: #6da9ea; }
