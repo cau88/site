@@ -44,7 +44,7 @@
           background-color: #7A991A;
       }
 
-#about:link, #skills:link, #mywork:link, #activities:link, #contact:link {
+#about:active, #skills:active, #mywork:active, #activities:active, #contact:active {
 	  font-weight: bold;
           color: #FFFFFF;
           background-color: #98bf21;
