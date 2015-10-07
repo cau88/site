@@ -1,1 +1,33 @@
 
+#about { 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+#skills { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+#mywork { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+#activities { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #ebde52;
+}
+#contact { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #eace52;
+}
