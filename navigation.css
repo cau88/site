@@ -5,7 +5,7 @@
 	left: 140px;
 	width: 200px;
 	height: 50px;
-	background: #ee3e64;
+	/*background: #ee3e64;*/
 }
 #skills { 
 	position: absolute;
@@ -13,7 +13,7 @@
 	left: 340px;
 	width: 200px;
 	height: 50px;
-	background: #44accf;
+	/*background: #44accf;*/
 }
 #mywork { 
 	position: absolute;
@@ -21,7 +21,7 @@
 	left: 540px;
 	width: 200px;
 	height: 50px;
-	background: #b7d84b;
+	/*background: #b7d84b;*/
 }
 #activities { 
 	position: absolute;
@@ -29,7 +29,7 @@
 	left: 740px;
 	width: 200px;
 	height: 50px;
-	background: #ebde52;
+	/*background: #ebde52;*/
 }
 #contact { 
 	position: absolute;
@@ -37,14 +37,14 @@
 	left: 940px;
 	width: 200px;
 	height: 50px;
-	background: #eace52;
+	/*background: #eace52;*/
 }
 
 #about:hover, #skills:hover, #mywork:hover, #activities:hover, #contact:hover {
           background-color: #7A991A;
       }
 
-#about:link, #skills:link, #mywork:link, #activities:link, #contact:link, #about:visited, #skills:visited, #mywork:visited, #activities:visited, #contact:visited {
+#about:link, #skills:link, #mywork:link, #activities:link, #contact:link {
 	  font-weight: bold;
           color: #FFFFFF;
           background-color: #98bf21;
@@ -52,4 +52,4 @@
           padding: 4px;
           text-decoration: none;
           text-transform: uppercase;
-	}
+      }
