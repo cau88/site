@@ -9,24 +9,28 @@
 }
 #skills { 
 	position: relative;
+	left: 200;
 	width: 200px;
 	height: 200px;
 	background: #44accf;
 }
 #mywork { 
 	position: relative;
+	left: 400;
 	width: 200px;
 	height: 200px;
 	background: #b7d84b;
 }
 #activities { 
 	position: relative;
+	left: 600;
 	width: 200px;
 	height: 200px;
 	background: #ebde52;
 }
 #contact { 
 	position: relative;
+	left: 800;
 	width: 200px;
 	height: 200px;
 	background: #eace52;
