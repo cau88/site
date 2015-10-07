@@ -1,12 +1,12 @@
 
 #about, #skills, #mywork, #activities, #contact {
+	  text-decoration: none;
 	  display: block;
 	  font-weight: bold;
           color: #FFFFFF;
           background-color: #98bf21;
           text-align: center;
           padding: 4px;
-          text-decoration: none;
           text-transform: uppercase;
       }
       
