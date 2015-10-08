@@ -2,7 +2,7 @@
 a:link, a:visited {
 	  display: block;
 	  font-weight: bold;
-	  font size="20px";
+	  font size="40px";
           color: #FFFFFF;
           /*background-color: #98bf21;*/
           font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -11,7 +11,7 @@ a:link, a:visited {
           padding: 4px;
           text-decoration: none;
           text-transform: uppercase;
-          height:60px;
+          height:30px;
       }
       
 #about { 
