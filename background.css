@@ -2,6 +2,64 @@
 /*#box_1 { position: absolute; top: 10px; right: 10px; bottom: 10px; left: 10px; background: #251a9c; }*/
 /*#box_1 { position: absolute; top: 10px; right: 10px; bottom: 10px; left: 10px; background: #44accf; }*/
 /*#box_1 { position: absolute; top: 10px; right: 10px; bottom: 10px; left: 10px; background: #6da9ea; }*/
+/*border box*/
 #box_1 { position: absolute; top: 10px; right: 10px; bottom: 10px; left: 10px; background: #276f98; }
 /*inside box*/
 #box_2 { position: absolute; top: 20px; right: 20px; bottom: 20px; left: 20px; background: #ffcc31; }
+
+a:link, a:visited {
+	display: block;
+	font-weight: bold;
+	font size="20px";
+  color: #FFFFFF;
+  /*background-color: #98bf21;*/
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: #981bc2;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  height:38px;
+}
+      
+#about { 
+	position: absolute;
+	bottom: 0;
+	left: 140px;
+	width: 200px;
+	height: 50px;
+}
+#skills { 
+	position: absolute;
+	bottom: 0;
+	left: 340px;
+	width: 200px;
+	height: 50px;
+}
+#mywork { 
+	position: absolute;
+	bottom: 0;
+	left: 540px;
+	width: 200px;
+	height: 50px;
+}
+#activities { 
+	position: absolute;
+	bottom: 0;
+	left: 740px;
+	width: 200px;
+	height: 50px;
+}
+#contact { 
+	position: absolute;
+	bottom: 0;
+	left: 940px;
+	width: 200px;
+	height: 50px;
+}
+
+a:hover {
+  /*background-color: #7A991A;*/
+  background-color: #742798;
+}
+
