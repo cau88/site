@@ -24,7 +24,7 @@ a:link, a:visited {
       
 #about { 
 	position: absolute;
-	bottom: 0;
+	bottom: -10;
 	left: 140px;
 	width: 200px;
 	height: 50px;
