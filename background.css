@@ -16,7 +16,7 @@ a:link, a:visited {
   	font-family: "Trebuchet MS", Helvetica, sans-serif;
   	background-color: #D3E397;
   	text-align: center;
-  	padding: 4px;
+  	/*padding: 4px;*/
   	text-decoration: none;
   	text-transform: uppercase;
   	height:38px;
