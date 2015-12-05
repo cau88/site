@@ -129,6 +129,19 @@ p { color: #ffffff;  }
 	-webkit-border-radius: 10px;
 }
   </style>	
+  
+  <script>
+  		$(document).ready(function(){
+		// set up hover panels
+		// although this can be done without JavaScript, we've attached these events
+		// because it causes the hover to be triggered when the element is tapped on a touch device
+		$('.hover').hover(function(){
+			$(this).addClass('flip');
+		},function(){
+			$(this).removeClass('flip');
+		});
+	});
+  </script>
   	
   	<h1>CSS 3D FLIP BOX</h1>
 <h3>Flipping content to a div (Transitions and 3D Transforms)</h3>
