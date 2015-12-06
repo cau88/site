@@ -1,4 +1,48 @@
 /*left box*/
-#box_1 { position: absolute; top: 0px; right: 50%; bottom: 0px; left: 0px; background: #000000;/* transform:rotateY(90);*/}
+#box_1 { 
+  position: absolute; 
+  top: 0px; 
+  right: 50%; 
+  bottom: 0px; 
+  left: 0px; 
+  background: #000000;
+  -webkit-animation-name: l-open; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  /* transform:rotateY(90);*/}
 /*right box*/
-#box_2 { position: absolute; top: 0px; right: 0px; bottom: 0px; left: 50%; background: #FFF5C3;/* transform:rotateY(-90);*/}
+#box_2 { 
+  position: absolute; 
+  top: 0px; 
+  right: 0px; 
+  bottom: 0px; 
+  left: 50%; 
+  background: #FFF5C3;
+  -webkit-animation-name: r-open; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+  /* transform:rotateY(90);*/}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes l-open {
+  transform:rotateY(-30);
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes r-open {
+  transform:rotateY(30);
+}
+
+/* Standard syntax */
+@keyframes l-open {
+  transform:rotateY(-30);
+}
+/* Standard syntax */
+@keyframes r-open {
+  transform:rotateY(30);
+}
