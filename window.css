@@ -3,7 +3,7 @@ div {
     height: 100px;
     background-color: red;
     position: relative;
-    transform: scaleX(10);
+    transform: rotate(20);
     -webkit-animation-name: example; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
