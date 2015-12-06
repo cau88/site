@@ -9,7 +9,7 @@
   -webkit-animation-name: l-open; /* Chrome, Safari, Opera */
   -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
   -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
-  animation-name: example;
+  animation-name: l-open;
   animation-duration: 4s;
   animation-iteration-count: 3;
   /* transform:rotateY(90);*/}
@@ -24,7 +24,7 @@
   -webkit-animation-name: r-open; /* Chrome, Safari, Opera */
   -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
   -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
-  animation-name: example;
+  animation-name: r-open;
   animation-duration: 2s;
   animation-iteration-count: 3;
   /* transform:rotateY(90);*/}
