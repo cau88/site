@@ -1,48 +1,30 @@
-/*left box*/
-#box_1 { 
-  position: absolute; 
-  top: 10px; 
-  right: 50%; 
-  bottom: 10px; 
-  left: 10px; 
-  background: #000000;
-  -webkit-animation-name: l-open; /* Chrome, Safari, Opera */
-  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
-  -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
-  animation-name: l-open;
-  animation-duration: 4s;
-  animation-iteration-count: 3;
-  /* transform:rotateY(90);*/}
-/*right box*/
-#box_2 { 
-  position: absolute; 
-  top: 10px; 
-  right: 10px; 
-  bottom: 10px; 
-  left: 50%; 
-  background: #FFF5C3;
-  -webkit-animation-name: r-open; /* Chrome, Safari, Opera */
-  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
-  -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
-  animation-name: r-open;
-  animation-duration: 2s;
-  animation-iteration-count: 3;
-  /* transform:rotateY(90);*/}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
 
 /* Chrome, Safari, Opera */
-@-webkit-keyframes l-open {
-  transform:rotateY(-30);
-}
-/* Chrome, Safari, Opera */
-@-webkit-keyframes r-open {
-  transform:rotateY(30);
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
 }
 
 /* Standard syntax */
-@keyframes l-open {
-  transform:rotateY(-30);
-}
-/* Standard syntax */
-@keyframes r-open {
-  transform:rotateY(30);
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
 }
