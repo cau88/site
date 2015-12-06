@@ -31,18 +31,18 @@
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes l-open {
-  transform:rotateX(-30);
+  transform:rotateY(-30);
 }
 /* Chrome, Safari, Opera */
 @-webkit-keyframes r-open {
-  transform:rotateX(30);
+  transform:rotateY(30);
 }
 
 /* Standard syntax */
 @keyframes l-open {
-  transform:rotateX(-30);
+  transform:rotateY(-30);
 }
 /* Standard syntax */
 @keyframes r-open {
-  transform:rotateX(30);
+  transform:rotateY(30);
 }
