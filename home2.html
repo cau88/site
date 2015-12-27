@@ -17,14 +17,15 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>    
 	    
     <style>
+    /*
       body {
     	  background-image: url("https://cloud.githubusercontent.com/assets/13573574/12005096/9386722a-ab5c-11e5-88d0-76d564fbeb4f.jpg");
-    	  background-repeat: no-repeat;
+    	  background-repeat: no-repeat;*/
     	  /*position: absolute; left: 240px; top: 95px; width:400px;*/
-    	  background-size: contain;
+    	 /* background-size: contain;*/
     	  /*transform: rotate(-90deg);*/
     	  /*background-image: url("https://cloud.githubusercontent.com/assets/13573574/12007086/e607550e-abc1-11e5-839e-078fbb0db203.jpg");*/ 
-      }
+     /* }*/
 /*
       .background{
       	  background-image: url("https://cloud.githubusercontent.com/assets/13573574/12005096/9386722a-ab5c-11e5-88d0-76d564fbeb4f.jpg");
@@ -100,10 +101,17 @@
       	float:right;
       }
       */
+      #rectangle{
+	    width:200px;
+	    height:100px;
+	    background-image:url("https://cloud.githubusercontent.com/assets/13573574/12005096/9386722a-ab5c-11e5-88d0-76d564fbeb4f.jpg");
+	    background-size: cover;
+	}
     </style>
   </head>
- <div class="background">
+<!-- <div class="background">-->
   <body>
+    <div id="rectangle"></div>
        <nav class="navbar navbar-inverse navbar-fixed-top">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
@@ -336,6 +344,6 @@
 
 
   </body>
- </div>
+ <!--</div>-->
 </html> 
 
