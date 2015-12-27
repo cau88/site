@@ -17,12 +17,22 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>    
 	    
     <style>
-    html { 
-	  background: url("https://cloud.githubusercontent.com/assets/13573574/12005096/9386722a-ab5c-11e5-88d0-76d564fbeb4f.jpg") no-repeat center center fixed; 
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
+	#bg {
+	  position: fixed; 
+	  top: -50%; 
+	  left: -50%; 
+	  width: 200%; 
+	  height: 200%;
+	}
+	#bg img {
+	  position: absolute; 
+	  top: 0; 
+	  left: 0; 
+	  right: 0; 
+	  bottom: 0; 
+	  margin: auto; 
+	  min-width: 50%;
+	  min-height: 50%;
 	}
     /*
       body {
@@ -122,6 +132,9 @@
   </head>
 <!-- <div class="background">-->
   <body>
+	<div id="bg">
+	  <img src="https://cloud.githubusercontent.com/assets/13573574/12005096/9386722a-ab5c-11e5-88d0-76d564fbeb4f.jpg" alt="">
+	</div>
     <!--<div id="rectangle"></div>-->
        <nav class="navbar navbar-inverse navbar-fixed-top">
 	  <div class="container-fluid">
