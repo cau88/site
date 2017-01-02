@@ -215,6 +215,31 @@
 	    position:relative;
 	    color:#8C8C8C;
 	}
+	
+      .jumbotron container{
+      	display:block;
+      }  
+      .jumbotron container1{
+      	display: block;
+      	position: absolute;
+      	background: white;
+      	color: #EB6E44;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+      }
+      .jumbotron container1 row{
+      	display: block;
+      	position: absolute;
+      	background: yellow;
+      	color: #EB6E44;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+      }
+      .jumbotron h2{
+	  color: #EB6E44;
+	  text-align: right;
+	  /*font-size: 50px;*/
+	  font-size: 4vw;
+      }
+	
 	/** have a nice ampersand **/
 	/* h1:after {
 	    font-size:25px;
@@ -483,48 +508,58 @@
 	  </div>
         </nav>	  
 	  
-	<div id="content">	
+	<div class="jumbotron"> 	
+   		<div class="container">
+     			<div class="row">
+			<div class="col-md-13">
+				
+				<div id="content">	
 
-	    <h1>Contact</h1>
+				    <h1>Contact</h1>
 
-	    <form action=" " method="post" autocomplete="on">
-		<p>
-		    <label for="username" class="icon-user"> Name
-			<span class="required">*</span>
-		    </label>
-		    <input type="text" name="username" id="username" required="required" placeholder="Your Name" />
-		</p>
+				    <form action=" " method="post" autocomplete="on">
+					<p>
+					    <label for="username" class="icon-user"> Name
+						<span class="required">*</span>
+					    </label>
+					    <input type="text" name="username" id="username" required="required" placeholder="Your Name" />
+					</p>
 
-		<p>
-		    <label for="usermail" class="icon-envelope"> E-mail address
-			<span class="required">*</span>
-		    </label>
-		    <input type="email" name="usermail" id="usermail" placeholder="I promise I hate spam too!" required="required" />
-		</p>
+					<p>
+					    <label for="usermail" class="icon-envelope"> E-mail address
+						<span class="required">*</span>
+					    </label>
+					    <input type="email" name="usermail" id="usermail" placeholder="I promise I hate spam too!" required="required" />
+					</p>
 
-		<p>
-		    <label for="usersite" class="icon-link"> Website</label>
-		    <input type="url" name="usersite" id="usersite" placeholder="eg: http://www.example.com" />
-		</p>
+					<p>
+					    <label for="usersite" class="icon-link"> Website</label>
+					    <input type="url" name="usersite" id="usersite" placeholder="eg: http://www.example.com" />
+					</p>
 
-		<p>
-		    <label for="subject" class="icon-bullhorn"> Subject</label>
-		    <input type="text" name="subject" id="subject" placeholder="What would you like to talk about?" />
-		</p>
+					<p>
+					    <label for="subject" class="icon-bullhorn"> Subject</label>
+					    <input type="text" name="subject" id="subject" placeholder="What would you like to talk about?" />
+					</p>
 
-		<p>
-		    <label for="message" class="icon-comment"> Message
-			<span class="required">*</span>
-		    </label>
-		    <textarea placeholder="Your message here and I'll answer as soon as possible " required="required"></textarea>
-		</p>
-		<p class="indication">Fields with
-		    <span class="required"> * </span>are required</p>
+					<p>
+					    <label for="message" class="icon-comment"> Message
+						<span class="required">*</span>
+					    </label>
+					    <textarea placeholder="Your message here and I'll answer as soon as possible " required="required"></textarea>
+					</p>
+					<p class="indication">Fields with
+					    <span class="required"> * </span>are required</p>
 
-		<input type="submit" value=" Send this mail ! " />
+					<input type="submit" value=" Send this mail ! " />
 
-	    </form>
+				    </form>
+				</div>
+			</div>
+		</div>
 	</div>
+    </div>
+	  
 
 </body>
 </html>
