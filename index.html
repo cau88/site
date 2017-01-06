@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+<!DOCTYPE html>  
 <html>
-  <head> 
+  <head>
     <title>Chinedum Uche - Home</title>
 
     <meta charset="utf-8">
@@ -10,15 +10,24 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>    
 	    
     <style>
-	.navbar {
-	    color: #D9FEFF;
-	    background: rgba(22, 37, 38, 0.95);
+      .navbar {
+	    /* color: #D9FEFF; */
+	    /* ~~~ color: rgba(22, 37, 38, 0.95); ~~~ */
+	    position: fixed;
+	    /* color: #000000; ~~~ */
+	    background: #9FD5E8;
+	    /* background: rgba(22, 37, 38, 0.95); */
 	}
+	    
       ul {
           list-style-type: none;
-          margin: 0;
+          margin: 0; 
           padding: 0;
           overflow: hidden;
+      }
+	    
+       li {
+    	  display: inline;
       }
       .jumbotron container{
       	display:block;
@@ -37,16 +46,17 @@
       	color: #EB6E44;
         font-family: "Trebuchet MS", Helvetica, sans-serif;
       }
+	    /*
       .jumbotron h1{
-	  color: #FA58AC;
+	  color: #9FD5E8;  */
 	  /*font-size: 55px;*/
-	  font-size: 5.7vw;
-	  text-align: right;
-	  -webkit-text-stroke-width: 0.5px;
-   	  -webkit-text-stroke-color: #FFBF00;
+	 /* font-size: 3.0vw;
+	  text-align: right; */
+	  /*-webkit-text-stroke-width: 0.5px;*/
+   	  /*-webkit-text-stroke-color: #FFBF00;*/
 	  /*  text-shadow: 2px 2px #D1E0E0;  */
-	    text-shadow: 0.195vw 0.195vw #D1E0E0;  
-      }
+	 /* text-shadow: 0.195vw 0.195vw #D1E0E0;  
+      }  */
       .jumbotron h2{
 	  color: #EB6E44;
 	  text-align: right;
@@ -83,8 +93,9 @@
       
       h3 {
 	  position: relative;
-	  margin-left: -1.75%; /*135px;*/
-	  color: #EB6E44;
+	  /*margin-left: -1.75%; */ /*135px;*/
+	  /*margin-right: 25%; */
+	  color: #9FD5E8; /*#EB6E44;*/
 	  text-align: center;
 	  font-family: "Trebuchet MS", Helvetica, sans-serif;
 	  font-size: 40px;
@@ -106,16 +117,19 @@
 	  /*width: 300px;*/
 	  overflow: hidden;
       }
+	/* jumbotron */
+	/*
 	.jumbotron{
 	  height: 800px;
 	  width: 100%;
-	  background-image: url('https://cloud.githubusercontent.com/assets/13573574/12021199/2bd3b302-ad52-11e5-8665-8cd4b1bf499e.png'); 
+	  background-image: url('https://cloud.githubusercontent.com/assets/13573574/12021199/2bd3b302-ad52-11e5-8665-8cd4b1bf499e.png');
 	  margin-top:auto;
 	  margin-bottom:auto;
 	  background-size: contain;
 	  background-color: black;
 	  background-repeat: repeat-x;
 	}
+	*/
 	/*
 	.rectangle{
 	height: 300px;
@@ -180,7 +194,8 @@
     </style>
   </head>
   <body>
-       <nav class="navbar navbar-inverse navbar-fixed-top">
+	  
+  <nav class="navbar navbar-inverse navbar-fixed-top">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -188,9 +203,56 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>                        
 	      </button>
-	      <a class="navbar-brand" style="font-size: 200%" href="index.html"><b>Chinedum Uche</b></a>
+	      <a class="navbar-brand" style="font-size: 200%; color: #3078AD;" href="home.html"><b>Chinedum Uche</b></a>
 	    </div>
 	    <div class="collapse navbar-collapse" id="myNavbar">
+
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a style="font-size: 130%;  color: #3078AD;" href="skills.html">Skills</a></li>
+	        <li><a style="font-size: 130%;  color: #3078AD;" href="mywork2.html">My Work</a></li>
+	        <li><a style="font-size: 130%;  color: #3078AD;" href="activities2.html">Activities</a></li>
+	       <!-- <li><a style="font-size: 130%;  color: #3078AD;" href="contact.html">Contact</a></li> -->
+		<li>
+			<a href="https://www.linkedin.com/in/chinedumauche"> 
+				<img style="width: 22px;" src="https://cloud.githubusercontent.com/assets/13573574/11007813/1a594dc8-8492-11e5-9175-1ff1f483cf07.png">
+			</a>
+		</li>
+		<li> 
+			<a href="mailto:cuche.18@dartmouth.edu">
+				<img style="width: 22px;" src="https://raw.githubusercontent.com/cau88/site/images/blueEnv2.png"> 
+			</a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	  
+  <div class="jumbotron"> 	
+   <div class="container">
+     <div class="row">
+	<div class="col-md-13">
+	    <p>
+		<img src="https://cloud.githubusercontent.com/assets/13573574/10374419/1e6b9020-6dc1-11e5-8b47-ef71dd5d72b9.jpg" alt="Chinedum Uche" style="position: absolute; margin-left: 10%; margin-top: 3%; width:27%; height:(width*1.215); transform: rotate(-10deg), skew(5deg); border: 10px solid #FFFFFF; box-shadow: 5px 5px 5px #D1E0E0;">
+		<!--<img src="https://raw.githubusercontent.com/cau88/site/images/ChristmasPicBW3.png" alt="Chinedum Uche" style="position: absolute; margin-left: 10%; margin-top: 5%; width:27%; height:(width*1.215); transform: rotate(-10deg), skew(5deg); border: 10px solid #FFFFFF; box-shadow: 5px 5px 5px #D1E0E0;">-->
+		<div style="margin-right: 820px">
+		    <p style="margin-top: 15%; margin-left: 100%; font-size:40px; color: #9FD5E8;"><b>Welcome!</b></p>
+  		    <p style="margin-top: 0px; margin-left: 100%; text-align: left; width:550px; font-size:22px;">
+			Hello, my name is Chinedum. I am a third year undergraduate student at Dartmouth College pursuing both Government and Computer Science. My academic interests include exploring the intersection between my two areas of study, public policy, and potentially law. Outside of academics, I enjoy serving my community, working on personal projects, solving puzzles and watching/playing sports.
+  		       <!--
+		       <br><u>Relevant courses:</u> 
+  		       <br>Government: Politics of the World, International Politics, Quantitative Political Analysis, International Security & Ethics and Public Policy. 
+  		       <br>Computer Science: Introduction to Programming & Computation, Problem Solving via Object-Oriented Programming, Computer Animation & Software Design and Implementation. 
+			--> 		    
+  		    </p>
+		</div>
+	     </p>
+	   </div>
+	</div>
+     </div>
+   <br>
+  </div> 
+	<!--
+	<div class="collapse navbar-collapse" id="myNavbar"> This -->
 	      <!--	
 	      <ul class="nav navbar-nav">
 	        <li class="active"><a href="#">Home</a></li>
@@ -199,206 +261,37 @@
 	        <li><a href="#">Page 3</a></li>
 	      </ul>
 	      -->
-	      <ul class="nav navbar-nav navbar-right">
-	      	<!--<li class="active"><a href="#">Home</a></li>-->
-	        <li><a style="font-size: 125%" href="index.html#about">About</a></li>
-	        <li><a style="font-size: 125%" href="index.html#skills">Skills</a></li>
-	        <li><a style="font-size: 125%" href="mywork.html">My Work</a></li>
-	        <li><a style="font-size: 125%" href="csadvocacy.html">CS Advocacy</a></li>
-	        <li><a style="font-size: 125%" href="index.html#activities">Activities</a></li>
-	        <li><a style="font-size: 125%" href="index.html#contact">Contact</a></li>
-	      	<!--
-	        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-	        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-	        -->
-	      </ul>
-	    </div>
-	  </div>
-	</nav>
-  <div class="jumbotron"> 	
-   <div class="container">
-     <div class="row">
-	<div class="col-md-13">
-	    <p> <!-- Used an interesting hack to import the img below, hence the odd url -->
-	    	<!--<img src="https://cloud.githubusercontent.com/assets/13573574/10374419/1e6b9020-6dc1-11e5-8b47-ef71dd5d72b9.jpg" alt="Chinedum Uche" style="float:left;	position: absolute; left: 240px; top: 95px; width:318px; height:388px;">-->
-	    	<!--<img src="https://cloud.githubusercontent.com/assets/13573574/10374419/1e6b9020-6dc1-11e5-8b47-ef71dd5d72b9.jpg" alt="Chinedum Uche" style="float:left;	position: absolute; left: 25%; top: 19%; width:318px; height:388px;">-->
-<!--	    	<img src="https://cloud.githubusercontent.com/assets/13573574/10374419/1e6b9020-6dc1-11e5-8b47-ef71dd5d72b9.jpg" alt="Chinedum Uche" style="position: absolute; margin-left: 22%; margin-top: 5%; width:27%; height:(width*1.22); transform: rotate(-10deg), skew(5deg); border: 10px solid #FFFFFF; box-shadow: 5px 5px 5px #D1E0E0;">    -->
-		<img src="https://cloud.githubusercontent.com/assets/13573574/10374419/1e6b9020-6dc1-11e5-8b47-ef71dd5d72b9.jpg" alt="Chinedum Uche" style="position: absolute; margin-left: 20%; margin-top: 5%; width:27%; height:(width*1.215); transform: rotate(-10deg), skew(5deg); border: 10px solid #FFFFFF; box-shadow: 5px 5px 5px #D1E0E0;">
-	    <!--	<h1 style="margin-left: 52%;"><div>Chinedum Uche</div></h1>
-	    	<h2 style="margin-left: 45%;"><div>Developer. Student.</div></h2> -->
-	    </p>
-	</div>
-     </div>
-   </div>
-<br>
-   <div class="container1">
-   	<br>
-     <div class="rectangle">
-    <!--<div class="row">-->
-    <!--	<br><br><br><br>  <br><br><br><br>
-    	<br><br><br><br>  -->
-    	<div class="col-md-12">
-    		<br>
-	    <p>
-	    	<br>
-	    	<h1>Chinedum Uche</h1>
-	    	<h2>Developer. Student.</h2> 
-	    	<br>
-	    </p>
-	    <br>
-	</div>
-	<br>
-     </div>
-     <a name="about" style="margin-top: 200px;"></a>
-   </div>
-  </div>
-
-  <div class="aboutDiv">
-   <div class="container">
-	    <p>
-	    	<!--<a name="about"></a>-->
-	    	<br><br><br>
-	    	 <br><br><br><br>
-	    	 <br><br><br><br>
-	    	<!--<p style="text-align: center;"><br><br><br><br><br><br><br><br><br> *work in progress* </p>-->
-	    	<!--<h3 style="margin-top: 100px;"><div>----------------------------------------------------------------------------------------</div></h3>-->
-	    	<br>
-	    	<!--<img src="http://digitalmusics.dartmouth.edu/~bells/dart_seal.gif" alt="Dartmouth Seal" style="float:left; position: absolute; left: 20%; top: 9%; width:125px; height:135px;">-->
-	    	<img src="http://www.dartmouth.edu/~bhfeedback2012/Images/logo_dartmouth.png" alt="Dartmouth Seal" style="float:left; position: absolute; left: 13%; top: 13%; width:320px; height:85px;">
-	    	<img src="https://media.giphy.com/media/8UiK6vNjXBXxK/giphy.gif" alt="Girl Coder gif" style="position: absolute; left: 48%; top: 9%; width:135px; height:135px;">
-	    	<img src="http://images.clipartpanda.com/government-white-government-hi.png" alt="Government Building img" style="position: absolute; left: 72%; top: 9%; width:130px; height:130px;">
-	    <!--<img src="http://b-i.forbesimg.com/paulhsieh/files/2013/03/300px-Medicina.svg_2.png" alt="Medicine symbols" style="position: absolute; left: 77%; top: 9%; width:135px; height:135px;">-->
-
-	    	<!--<a style="margin-top: 1800px;" name="about"></a>-->
-	    	<h3><div>About</div></h3>
-	    	<!-- <link href='http://cau88.github.io/site/background.css' rel='stylesheet' type='text/css'>
-	          <div id="box_1"></div>
-		  <div id="box_2"></div> -->
-	    </p>
- 	    <div style="margin-right: 820px">
-  		    <p style="margin-top: 0px; margin-left: 50%; text-align: left; width:820px; font-size:20px;">
-			I am a third year undergraduate student at Dartmouth College pursuing both Government and Computer Science. I began my college experience as a computer science major but developed a love for the study of government and politics along the way. For this reason I am interested in exploring the intersection of government and computer science. In addition, I am interested in public policy, and potentially law.
-  		       <br><u>Relevant courses:</u> 
-  		       <br>Government: Politics of the World, International Politics, Quantitative Political Analysis, International Security & Ethics and Public Policy. 
-  		       <br>Computer Science: Introduction to Programming & Computation, Problem Solving via Object-Oriented Programming, Computer Animation & Software Design and Implementation. 
- 		    </br>
-  		    </p>
-  		    <br>
-  		    <br>
-		    <br>
-		   <!-- </p>--><br>
-		        <a name="skills"></a>
-	    </div>
-   </div>
-  </div>
-   <div class="skillsDiv">
-    <div class="container">
-    <p>
-    	<br><br><br>
-    	<h3><div style="margin-left:20px;">Skills</div></h3>
-    </p>
-    <p>
-      <div style="margin-right: 1180px">
-    	<div class="container" style="margin-top:20px; text-align: center; margin-left: 50%">
-	  <div class="row">
-	    <div class="col-md-3" style="width: 420px"> 
-	      <p><h4>Proficient in:</h4><br><h5>Languages:</h5> <img src="https://cloud.githubusercontent.com/assets/13573574/10561477/0c99a722-74f8-11e5-813b-e7e0a1a6d796.png" alt="Java, Python, HTML5" style="margin-left:-25px; margin-top:10px;">
-	       <br><h5> & Tools: iMovie & AppInventor </h5>
-	      </p>
-	    </div>
-	    <div class="col-md-3" style="width: 380px"> 
-	      <p><h4>Some experience with:</h4><br><h5 style="text-align:center;">Languages:</h5> <img src="https://cloud.githubusercontent.com/assets/13573574/12532263/b8598dfc-c1dd-11e5-8840-0de606ba979b.png" alt="CSS3, JavaScript" style="text-align:center; margin-top:10px;">
-	      <br><h5 style="text-align:center;"> & Tools: Google App Engine,Android Studio, Maya & Final Cut Pro </h5>
-	      </p>
-	    </div>
-	    <div class="col-md-3" style="width: 360px">
-	      <p><h4>Exposure to:</h4><br><img src="https://cloud.githubusercontent.com/assets/13573574/10615977/cc862814-7730-11e5-8a26-da3def7b0b7a.png" alt="Unix, jQuery" style="margin-right:0px; margin-top: 10px;">
-	      </p>
-	    </div>
-	    <div class="clearfix visible-lg"></div>
-	  </div>
-	</div>
-      </div>
-     </p>
-    </div>
-  </div>
-    <br>
-    <br>
-    <br>
-    <h3 style="margin-top: 0px;"><div>----------------------------------------------------------------------------------------</div></h3>
-    <p>
-    	<br>
-    	<a style="margin-top: 1200px;" name="mywork"></a>
-    	  <h3><div style="margin-left:-40px;">My Work</div></h3>
-    	<div style="margin-right: 1260px">
-    	<div class="container" style="margin-top:20px; text-align: center; margin-left: 50%">
-    	  <div class="row">
-	    <div class="col-md-3" style="width: 420px"> 
-              <h4><a href= http://cau88.github.io/site/mywork.html>Apps:</a></h4>
-	    	<h5 style="text-align: center">ExerciseU</h5>
-	    	<h5 style="text-align: center">TutorEd</h5>
-	    	<h5 style="text-align: center">Motley Mouse</h5>
-	    </div>
-	    <div class="col-md-3" style="width: 380px">
-	    <a href="http://cau88.github.io/site/mywork.html#research"><h4>Research:</h4></a>
-	    	<h5 style="text-align: center">National History Day</h5>
-	    	<h5 style="text-align: center">Moody Mega Math Challenge</h5>
-	    	<h5 style="text-align: center">Mice Lab Research</h5>
-	    	<h5 style="text-align: center">Alzheimer's Research Project</h5>
-	    </div>
-	    <div class="col-md-3" style="width: 360px"> 
-	      <a href="http://cau88.github.io/site/mywork.html#miscellaneous"><h4>Miscellaneous:</h4></a>
-                <h5 style="text-align: center">Animation</h5>
-                <!--
-	    	<h5 style="text-align: center">Branding for CTCSTA</h5>
-	    	<h5 style="text-align: center">Papers</h5>
-	    	-->
-	    </div>
-	  </div>
-	   <a name="activities"></a>
-	</div>
-      </div>
-    </p>
-    <br>
-    <br>
-    <br>
-    <h3 style="margin-top: 0px;"><div>----------------------------------------------------------------------------------------</div></h3>
-    <p>
-    	<br>
-    	<h3><div>Activities</div></h3>
-    	<br>
-    	<h4>National Society of Black Engineers (NSBE)</h4>
-    	<h5 style="text-align:center;"><t> - Executive Committee Member: Secretary</t></h5>
-    	<h5 style="font-size: 0.3px; color: #FFFFF">line break</h5>
-    	<!-- <h4>Dartmouth Entreprenuerial Network (DEN)</h4> -->
-    	<h4>Logos Church</h4>
-    	<h5 style="text-align:center;"><t> - Leadership & Praise Team</t></h5>
-    	<h5 style="font-size: 0.3px; color: #FFFFF">line break</h5>
-    	<h4>Christian Union (CU)</h4>
-    	<!-- <h4>Club Fencing (DCFC)</h4><br> -->
-    	<br><br>
-    </p>
-    <h3 style="margin-top: 0px;"><div>----------------------------------------------------------------------------------------</div></h3>
-    <p>
-    	<a style="margin-top: 1000px;" name="contact"></a>
-    	<h3><div>Contact</div></h3>
-    	
+	<!--
+		<li> 
+			<a href="mailto:cuche.18@dartmouth.edu"><img style="width: 45px;" src="https://cloud.githubusercontent.com/assets/13573574/11008139/41624a8a-8494-11e5-9354-7be5c49d4af5.png"></a>
+	        </li>
+		<li>
+	            <a href="https://www.linkedin.com/in/chinedumauche"> 
+	               <img style="width: 40px;" src="https://cloud.githubusercontent.com/assets/13573574/11007813/1a594dc8-8492-11e5-9175-1ff1f483cf07.png">
+	            </a>
+	        </li>
+	</div> This -->
+	
     	<!-- Footer -->
-	    <footer style="padding-top: 0px; padding-bottom: 0px;">
+	    <!--<footer style="padding-top: 0px; padding-bottom: 0px;">-->
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-lg-10 col-lg-offset-1 text-center">
 	                    <!--<h4><strong>Contact</strong>
 	                    </h4>-->
+			<!--
 	                    <br>
-	                    <ul class="list-unstyled">
+	                    <ul class="list-unstyled"> -->
 	                        <!--
 	                        <li><i class="fa fa-phone fa-fw"></i> </li>-->
-	                        <li> <img style="width: 20px;" src="https://cloud.githubusercontent.com/assets/13573574/11008139/41624a8a-8494-11e5-9354-7be5c49d4af5.png"> <a href="mailto:cuche.18@dartmouth.edu">cuche.18@dartmouth.edu</a>
+			<!--
+	                        <li> <img style="width: 20px;" src="https://cloud.githubusercontent.com/assets/13573574/11008139/41624a8a-8494-11e5-9354-7be5c49d4af5.png"> <a href="mailto:name@example.com">cuche.18@dartmouth.edu</a>
 	                        </li>
 	                    </ul>
-	                    <br>
-	                    <ul class="list-inline">
+	                    <br> -->
+			<!--
+	                    <ul class="list-inline">  -->
+			
 	                       <!-- <li>
 	                            <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
 	                        </li>
@@ -406,21 +299,30 @@
 	                        <li>
 	                            <a href="https://twitter.com/"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
 	                        </li>-->
-	                        <!--
+	                       <!--
 	                        <li>
 	                            <a href="http://github.com/cau88">
 	                        	<img style="width: 50px;" src="https://cloud.githubusercontent.com/assets/13573574/11007285/7928a1fe-848e-11e5-8d38-edfe94203da1.png">
 	                            </a>
 	                        </li>
-	                        -->
-	                        <li>
-	                            <a href="https://www.linkedin.com/in/chinedumauche">
-	                        	<img style="width: 50px;" src="https://cloud.githubusercontent.com/assets/13573574/11007813/1a594dc8-8492-11e5-9175-1ff1f483cf07.png">
-	                            </a>
-	                        </li>
-	                    </ul>
+				-->
+			<!--
+				<li> 
+					<a href="mailto:cuche.18@dartmouth.edu">
+						<img style="width: 45px;" src="https://cloud.githubusercontent.com/assets/13573574/11008139/41624a8a-8494-11e5-9354-7be5c49d4af5.png">
+					</a>
+	        		</li>
+				<li>
+				    <a href="https://www.linkedin.com/in/chinedumauche"> 
+				       <img style="width: 40px;" src="https://cloud.githubusercontent.com/assets/13573574/11007813/1a594dc8-8492-11e5-9175-1ff1f483cf07.png">
+				    </a>
+				</li>
+				    
+	                    </ul> 
+			-->	
 	                    <hr class="small">
 	                    <p class="text-muted">Copyright &copy; Chinedum Uche 2015</p>
+				
 	                </div>
 	            </div>
 	        </div>
