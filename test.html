@@ -159,10 +159,10 @@ This new layout allow you to give boxes flexibility, allowing them to be resized
         //.log to determine when you want the 
         //nav bar to stick.  
         console.log($(window).scrollTop())
-        if ($(window).scrollTop() >= 581) {
+        if ($(window).scrollTop() >= height) {
           $('#myNavbar').addClass('navbar-fixed');
         }
-        if ($(window).scrollTop() < 581) {
+        if ($(window).scrollTop() < height) {
           $('#myNavbar').removeClass('navbar-fixed');
         }
       });
