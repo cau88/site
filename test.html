@@ -36,11 +36,11 @@
   <body>
     <!-- Slide Show -->
     <section>
-      <img class="mySlides" id= "slImg" src="https://github.com/cau88/site/blob/images/HomeImg%20copy.jpg?raw=true"
+      <img class="mySlides" src="https://github.com/cau88/site/blob/images/HomeImg%20copy.jpg?raw=true"
       style="width:100%">
-      <img class="mySlides" id= "slImg" src="https://github.com/cau88/site/blob/images/MajorLeagueHacking%20copy.jpg?raw=true"
+      <img class="mySlides" src="https://github.com/cau88/site/blob/images/MajorLeagueHacking%20copy.jpg?raw=true"
       style="width:100%">
-      <img class="mySlides" id= "slImg" src="https://github.com/cau88/site/blob/images/WHpic%20copy.JPG?raw=true"
+      <img class="mySlides" src="https://github.com/cau88/site/blob/images/WHpic%20copy.JPG?raw=true"
       style="width:100.5%">
     </section>
     
@@ -125,11 +125,7 @@
       
     </style>
     
-    <script>	    
-    var slideImg = document.getElementById('slImg'); 
-    var slImgW = slImg.clientWidth;
-    var slImgH = slImg.clientHeight;
-    
+    <script>	      
     // Sticky Nav Bar
     $(document).ready(function() { 
       $(window).scroll(function () {
@@ -137,10 +133,10 @@
         //.log to determine when you want the 
         //nav bar to stick.  
         console.log($(window).scrollTop())
-        if ($(window).scrollTop() >= slImgH) {
+        if ($(window).scrollTop() >= 583) {
           $('#myNavbar').addClass('navbar-fixed');
         }
-        if ($(window).scrollTop() < slImgH) {
+        if ($(window).scrollTop() < 583) {
           $('#myNavbar').removeClass('navbar-fixed');
         }
       });
