@@ -42,10 +42,6 @@
       style="width:100%">
       <img class="mySlides" id= "slImg" src="https://github.com/cau88/site/blob/images/WHpic%20copy.JPG?raw=true"
       style="width:100.5%">
-	    
-      var slideImg = document.getElementById('slImg'); 
-      var slImgW = slImg.clientWidth;
-      var slImgH = slImg.clientHeight;
     </section>
     
     <div class="jumbotron"> 	
@@ -129,7 +125,10 @@
       
     </style>
     
-    <script>
+    <script>	    
+    var slideImg = document.getElementById('slImg'); 
+    var slImgW = slImg.clientWidth;
+    var slImgH = slImg.clientHeight;
     
     // Sticky Nav Bar
     $(document).ready(function() { 
