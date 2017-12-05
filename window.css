@@ -1,12 +1,12 @@
 
 /*left box*/
 #box_1 { 
-  position: absolute; 
+  /*position: absolute; */
   top: /*60*/10px; 
   right: 50%; 
   bottom: 10px; 
   left: 10px; 
-  background: #000000;
+  background: #FFFFFF; /*#000000;*/
   -webkit-animation-name: l-open; /* Chrome, Safari, Opera */
   -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
   -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
@@ -16,7 +16,7 @@
   /* transform:rotateY(90);*/}
 /*right box*/
 #box_2 { 
-  position: absolute; 
+  /*position: absolute;*/ 
   top: /*60*/10px; 
   right: 10px; 
   bottom: 10px; 
