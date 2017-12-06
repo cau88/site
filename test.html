@@ -138,11 +138,11 @@
         console.log($(window).scrollTop())
         if ($(window).scrollTop() >= imgHeight) {
           $('#myNavbar').addClass('navbar-fixed');
-	  $('#myNavbar').add('#CU');
+	  $('#myNavbar').appendChild('#CU');
         }
         if ($(window).scrollTop() < imgHeight) {
           $('#myNavbar').removeClass('navbar-fixed');
-	  $('#myNavbar').remove('#CU');
+	  $('#myNavbar').removeChild('#CU');
         }
       });
     });
