@@ -19,7 +19,7 @@
           </button>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar" style=border-radius:40px>
-	  <a class="navbar-brand" style="font-size: 200%; color: #3078AD;" href="index.html"><b>Chinedum Uche</b></a>
+	  <a class="navbar-brand" id="CU" style="font-size: 200%; color: white; text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 3px darkgrey" href="index.html"><b>Chinedum Uche</b></a>
           <ul class="nav navbar-nav">
             <li><a style="font-size: 130%; color: white; text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 3px darkgrey" href="test.html#about"><b>About</b></a></li>
             <li><a style="font-size: 130%; color: white; text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 3px darkgrey" href="skills2.html"><b>Skills</b></a></li>
@@ -138,9 +138,11 @@
         console.log($(window).scrollTop())
         if ($(window).scrollTop() >= imgHeight) {
           $('#myNavbar').addClass('navbar-fixed');
+	  $('#myNavbar').add('#CU');
         }
         if ($(window).scrollTop() < imgHeight) {
           $('#myNavbar').removeClass('navbar-fixed');
+	  $('#myNavbar').remove('#CU');
         }
       });
     });
