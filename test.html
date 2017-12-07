@@ -131,7 +131,6 @@
     <script>	   
     // Sticky Nav Bar
     var imgHeight = $('body').height();
-    $(document).ready(function() { 
       $(window).scroll(function () {
         //if you hard code, then use console
         //.log to determine when you want the 
@@ -143,11 +142,11 @@
         if ($(window).scrollTop() < imgHeight) {
           $('#myNavbar').removeClass('navbar-fixed');
         }
-      });
     });
       
     // Automatic Slideshow - change image every 6 seconds
     var myIndex = 0;
+    $(document).ready(function() { 
     carousel();
     function carousel() {
         var i;
@@ -160,6 +159,7 @@
         x[myIndex-1].style.display = "block";
         setTimeout(carousel, 6000);
     }
+    });
     </script>
   
     <!-- Footer -->
