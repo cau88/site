@@ -70,6 +70,15 @@
       /*background: #fff6ce;*/
       }
     </style>
+	  
+    <script>
+	$(function() {
+	  $(".toggle").on("click",function(e) {
+	    e.preventDefault();
+	    $(this.hash).toggle();
+	  });
+	});
+    </script>
 
     <nav class="navbar navbar-bottom">
       <div class="container-fluid">
@@ -97,10 +106,12 @@
   </head>
   <body>
 	  <h4>Work History
-		<a href="/mywork2.html"><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;"></a>
+		<a class="toggle" href="#workHist"><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;"></a>
 		<!--<button style="background-image:url('https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png')"></button>-->
 	  </h4>
-	  <img src="https://raw.githubusercontent.com/cau88/site/images/WorkHistory.png" alt="Work History" style="margin-left: 22%; width: 55vw;">
+	  <div id="workHist">
+	  	<img src="https://raw.githubusercontent.com/cau88/site/images/WorkHistory.png" alt="Work History" style="margin-left: 22%; width: 55vw;">
+	  </div>
 	  <br>
 	  <h4>Leadership History
 		<img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;">
