@@ -4,17 +4,17 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'Demo contact form <demo@domain.com>';
+$from = 'chinedumuche@aol.com';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <demo@domain.com>';
+$sendTo = 'cuche.18@dartmouth.edu';
 
 // subject of the email
-$subject = 'New message from contact form';
+$subject = 'Test message from contact form tutorial';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); 
+$fields = array('firstname' => 'FirstName', 'lastname' => 'LastName', 'email' => 'Email', 'phone' => 'Phone', 'message' => 'Message'); 
 
 // message that will be displayed when everything is OK :)
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
@@ -43,9 +43,10 @@ try
         }
     }
 
-    // All the neccessary headers for the email.
+    // All the necessary headers for the email.
     $headers = array('Content-Type: text/plain; charset="UTF-8";',
         'From: ' . $from,
+        'Subject: ' . $subject,
         'Reply-To: ' . $from,
         'Return-Path: ' . $from,
     );
