@@ -8,13 +8,8 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>    
-	    
-    <style>
-      .navbar {
-	    position: fixed;
-	    background: #9FD5E8;
-	}
-	    
+	  
+    <style> 
       ul {
           list-style-type: none;
           margin: 0; 
@@ -22,50 +17,75 @@
           overflow: hidden;
       }
 	    
-       li {
+      li {
     	  display: inline;
       }
+      
+      h3 {
+        position: relative;
+        color: #9FD5E8;
+        text-align: center;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 40px;
+        overflow: hidden;
+      }
+      h4 {
+        position: relative;
+        text-align: center;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 25px;
+        overflow: hidden;
+      }
+      h5 {
+        /*position: relative;*/
+        text-align: left;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 20px;
+        /*width: 300px;*/
+        overflow: hidden;
+      }
+      #myNavbar {
+        top: 0;
+        z-index: 100;
+        position: fixed;
+        width: 100%;
+        background: #a6cae0;
+        border-radius:40px;
+        /*opacity: 0.96;*/
+      }
 	
-	html, body{
-	width: 100%;
-	overflow-x: hidden;
-	background: #ECF0F1; /* #F2F4F5; /* #E3E5E6; /* #9fc4c4 - lighter */
-	}
+      html, body {
+      width: 100%;
+      overflow-x: hidden;
+      /*background: #fff6ce;*/
+      }
     </style>
-  </head>
+	
+    <nav class="navbar navbar-bottom">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+	    <li><a style="margin-top: -12%; height:20px; font-size: 130%;" href="test.html"><img src="https://raw.githubusercontent.com/cau88/site/images/homeIcon.png" alt="Home"></a></li>
+            <li><a style="font-size: 130%; color: white; text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 3px darkgrey" href="test.html#about"><b>About</b></a></li>
+            <li><a style="font-size: 130%; color: white; text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 3px darkgrey" href="skills2.html"><b>Skills</b></a></li>
+            <li><a style="font-size: 130%; color: white; text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 3px darkgrey" href="mywork2.html"><b>My Work</b></a></li>
+            <!--<li><a style="font-size: 130%; color: white; text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 3px darkgrey" href="csadvocacy.html"><b>CS Advocacy</b></a></li>-->
+            <li><a style="font-size: 130%; color: white; text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 3px darkgrey" href="activities.html"><b>Interests</b></a></li>
+            <li><a style="font-size: 130%; color: white; text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 3px darkgrey" href="contact.html"><b>Contact</b></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>	  
+  </head>	
+	
   <body>
-	  
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>                        
-	      </button>
-	      <a class="navbar-brand" style="font-size: 200%; color: #3078AD;" href="index.html"><b>Chinedum Uche</b></a>
-	    </div>
-	    <div class="collapse navbar-collapse" id="myNavbar">
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a style="font-size: 130%;  color: #3078AD;" href="skills.html">Skills</a></li>
-	        <li><a style="font-size: 130%;  color: #3078AD;" href="mywork.html">My Work</a></li>
-	        <li><a style="font-size: 130%;  color: #3078AD;" href="activities.html">Activities</a></li>
-	        <!--<li><a style="font-size: 130%;  color: #3078AD;" href="contact.html">Contact</a></li>-->
-		<li>
-			<a href="https://www.linkedin.com/in/chinedumauche"> 
-				<img style="width: 22px;" src="https://cloud.githubusercontent.com/assets/13573574/11007813/1a594dc8-8492-11e5-9175-1ff1f483cf07.png">
-			</a>
-		</li>
-		<li> 
-			<a href="mailto:cuche.18@dartmouth.edu">
-				<img style="width: 22px;" src="https://raw.githubusercontent.com/cau88/site/images/blueEnv2.png"> 
-			</a>
-	        </li>
-	      </ul>
-	    </div>
-	  </div>
-	</nav>
-
   <div class="jumbotron"> 	
    <div class="container">
      <div class="row">
