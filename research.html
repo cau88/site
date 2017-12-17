@@ -71,12 +71,18 @@
     </style>
 	  
     <script>
-	  function myFunction() {
-		  $(".toggle").on("click",function(e) {
-		    //e.preventDefault();
-		    $(this.hash).toggle();
-		  });
-	  }
+	function myFunction() {
+// 		  $(".toggle").on("click",function(e) {
+// 		    //e.preventDefault();
+// 		    $(this.hash).toggle();
+// 		  });
+	var x = document.getElementById(this.hash);
+	    if (x.style.display === "none") {
+		x.style.display = "block";
+	    } else {
+		x.style.display = "none";
+	    }
+	}
     </script>
 
     <nav class="navbar navbar-bottom">
