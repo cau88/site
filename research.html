@@ -71,10 +71,12 @@
     </style>
 	  
     <script>
-	  $(".toggle").on("click",function(e) {
-	    //e.preventDefault();
-	    $(this.hash).toggle();
-	  });
+	  function myFunction() {
+		  $(".toggle").on("click",function(e) {
+		    //e.preventDefault();
+		    $(this.hash).toggle();
+		  });
+	  }
     </script>
 
     <nav class="navbar navbar-bottom">
@@ -122,7 +124,7 @@
 			<div class="col-md-11"> 
 				<br>
 				<h5 style="text-align: center; font-size:22px;">Upper Valley Homelessness Workshop
-					<a class="toggle" id="#UVHW"><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 1vw;"></a>
+					<a onclick="myFunction()" class="toggle"><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 1.5vw;"></a>
 				</h5>
 				<div id="UVHW">
 					<h6 style="text-align: center; font-size:20px;"><i>Nelson A. Rockefeller Center for Public Policy, Hanover, NH</i></h6>
