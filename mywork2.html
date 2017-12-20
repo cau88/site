@@ -69,11 +69,14 @@
     <script>
 	function myFunction() {
 	   var x = document.getElementsByClassName("toggle");
-	   if(x.style.display === "none"){
-	   	x.style.display = "block";
-	   } else {
-	   	x.style.display = "none";
-	   }
+	   var i;
+    	   for (i = 0; i < x.length; i++) {
+		   if(x.style.display === "none"){
+			x.style.display = "block";
+		   } else {
+			x.style.display = "none";
+		   }
+    	   }
 	}
     </script>
 
