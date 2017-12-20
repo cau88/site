@@ -67,11 +67,14 @@
     </style>
 	  
     <script>
-	$function() {
-	    $(".toggle").on("click", function()) {
-		$(this.hash).toggle();
-	    });
-	});
+	function myFunction() {
+	   var x = document.getElementsByClassName("toggle");
+	   if(x.style.display === "none"){
+	   	x.style.display = "block";
+	   } else {
+	   	x.style.display = "none";
+	   }
+	}
     </script>
 
     <nav class="navbar navbar-bottom">
@@ -101,7 +104,7 @@
   <body>
 	  <div id="workHist">
 	  <h4>Work History
-		<a class="toggle" href="#workHist"><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;"></a>
+		<a class="toggle" href="#workHist" onclick="myFunction()"><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;"></a>
 		<!--<button style="background-image:url('https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png')"></button>-->
 	  </h4>
 	  	<img src="https://raw.githubusercontent.com/cau88/site/images/WorkHistory.png" alt="Work History" style="margin-left: 22%; width: 55vw;">
