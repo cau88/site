@@ -67,6 +67,12 @@
     </style>
 	  
     <script>
+	$function() {
+	    $(".toggle").on("click", function(e)) {
+		e.preventDefault();
+		$(this.hash).toggle();
+	    });
+	});
     </script>
 
     <nav class="navbar navbar-bottom">
@@ -95,7 +101,7 @@
   </head>
   <body>
 	  <h4>Work History
-		<a class="toggle" href=""><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;"></a>
+		<a class="toggle" href="#workHist"><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;"></a>
 		<!--<button style="background-image:url('https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png')"></button>-->
 	  </h4>
 	  <div id="workHist">
@@ -103,14 +109,14 @@
 	  </div>
 	  <br>
 	  <h4>Leadership History
-		<a class="toggle" href=""><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;"></a>
+		<a class="toggle" href="#leaderHist"><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;"></a>
 	  </h4>
 	  <div id="leaderHist">
 	  	<img src="https://raw.githubusercontent.com/cau88/site/images/LeadershipHistory.png" alt="Leadership History" style="margin-left: 22%; width: 55vw;">
 	  </div>
 	  <br>
 	  <h4>Projects
-		<a class="toggle" href=""><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;"></a>
+		<a class="toggle" href="#projects"><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;"></a>
 	  </h4>
 	  <div id="projects">		  
 		  <a href="research.html"><img src="https://raw.githubusercontent.com/cau88/site/images/ResearchIcon.png" alt="Research" style="width: 38.5vw; margin-top:2%; margin-left: 12%"></a>
