@@ -68,8 +68,14 @@
 	  
     <script>
 	$(function() {
-	$('#swap').click(function() {
+	$('#wk').click(function() {
 	    $('.toggleWork').toggle();
+	});
+	$('#ld').click(function() {
+	    $('.toggleLead').toggle();
+	});
+	$('#pj').click(function() {
+	    $('.toggleProj').toggle();
 	});
 	});
     </script>
@@ -101,24 +107,24 @@
   <body>
 	  
 	  <h4>Work History
-		<a id="swap" href="#test"><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;"></a>
+		<a id="wk" href="#"><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;"></a>
 		<!--<button style="background-image:url('https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png')"></button>-->
 	  </h4>
 	  <div id="workHist" class="toggleWork">
 	  	<img src="https://raw.githubusercontent.com/cau88/site/images/WorkHistory.png" alt="Work History" style="margin-left: 22%; width: 55vw;">
 	  </div>
 	  <br>
-	  <div id="leaderHist" class="toggle">
 	  <h4>Leadership History
-		<a href="#leaderHist"><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;"></a>
-	  </h4>  
+		<a id="ld" href="#leaderHist"><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;"></a>
+	  </h4> 
+	  <div id="leaderHist" class="toggleLead">
 	  	<img src="https://raw.githubusercontent.com/cau88/site/images/LeadershipHistory.png" alt="Leadership History" style="margin-left: 22%; width: 55vw;">
 	  </div>
 	  <br>
 	  <h4>Projects
-		<a href="#projects"><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;"></a>
+		<a id="pj" href="#projects"><img src="https://raw.githubusercontent.com/cau88/site/images/DropdownIcon.png" style="width: 2vw;"></a>
 	  </h4>
-	  <div id="projects" class="toggle" >		  
+	  <div id="projects" class="toggleProj">		  
 		  <a href="research.html"><img src="https://raw.githubusercontent.com/cau88/site/images/ResearchIcon.png" alt="Research" style="width: 38.5vw; margin-top:2%; margin-left: 12%"></a>
 		  <a href="apps.html"><img src="https://raw.githubusercontent.com/cau88/site/images/AppsIcon.png" alt="Apps" style="width: 39.3vw; margin-left:-0.9%; margin-top:-1%"></a>
 		  <a href="service.html"><img src="https://raw.githubusercontent.com/cau88/site/images/ServiceIcon.png" alt="Service" style="width: 38vw; margin-top:-1%; margin-left: 12%"></a>
