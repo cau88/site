@@ -4,7 +4,7 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'chinedumuche@aol.com';
+$from = 'info@cau88.github.io/site/contact2';
 
 // an email address that will receive the email with the output of the form
 $sendTo = 'cuche.18@dartmouth.edu';
@@ -17,7 +17,7 @@ $subject = 'Test message from contact form tutorial';
 $fields = array('firstname' => 'FirstName', 'lastname' => 'LastName', 'email' => 'Email', 'phone' => 'Phone', 'message' => 'Message'); 
 
 // message that will be displayed when everything is OK :)
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
+$okMessage = 'Message sent. Thank you, I will get back to you soon!';
 
 // If something goes wrong, we will display this message.
 $errorMessage = 'There was an error while submitting the form. Please try again later';
