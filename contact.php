@@ -4,13 +4,13 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'info@cau88.github.io/site/contact2';
+$from = 'form_email@cau88.github.io/site/contact2';
 
 // an email address that will receive the email with the output of the form
 $sendTo = 'cuche.18@dartmouth.edu';
 
 // subject of the email
-$subject = 'Test message from contact form tutorial';
+$subject = 'form_subject@cau88.github.io/site/contact2';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
