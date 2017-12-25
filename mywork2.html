@@ -68,8 +68,22 @@
 	  
     <script>
 	$(document).ready(function() {
-	  $('.toggleLead').hide();
-	  $('.toggleProj').hide();
+	  if('#')
+	  {
+	    $('.toggleLead').hide();
+	    $('.toggleProj').hide(); 
+	  }
+	  else if('#leaderHist')
+	  {
+	    $('.toggleWork').hide(); 
+	    $('.toggleProj').hide(); 
+	  }
+	  else if('#projects')
+	  {
+	    $('.toggleWork').hide(); 
+	    $('.toggleLead').hide();
+	  }
+
 	});
 	    
 	$(function() {
