@@ -68,22 +68,21 @@
 	  
     <script>
 	$(document).ready(function() {
-	  if('#')
-	  {
-	    $('.toggleLead').hide();
-	    $('.toggleProj').hide(); 
-	  }
-	  else if('#leaderHist')
+	  if(window.location.href==('#leaderHist'))
 	  {
 	    $('.toggleWork').hide(); 
 	    $('.toggleProj').hide(); 
 	  }
-	  else if(window.location.href.contains("projects") > -1)
+	  else if(window.location.href==('#projects'))
 	  {
 	    $('.toggleWork').hide(); 
 	    $('.toggleLead').hide();
 	  }
-
+	  else
+	  {
+	    $('.toggleLead').hide();
+	    $('.toggleProj').hide(); 
+	  }
 	});
 	    
 	$(function() {
