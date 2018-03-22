@@ -22,9 +22,9 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar" style=border-radius:40px>
           <ul class="nav navbar-nav">
-	    <b><button class="button"  style="text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 3px darkgrey" href="seamlessfront.html#about">About</button></b>
+	    <b><button class="button" name="aboutBtn" style="text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 3px darkgrey">About</button></b>
 	    <b><button class="button"  style="text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 3px darkgrey" href="skills.html">Skills</button></b>
-	    <b><button class="button"  style="text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 3px darkgrey" href="mywork.html">my Work</button></b>
+	    <b><button class="button"  style="text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 3px darkgrey" href="mywork.html">My Work</button></b>
             <!--<li><a style="font-size: 130%; color: white; text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 3px darkgrey" href="csadvocacy.html"><b>CS Advocacy</b></a></li>-->
             <b><button class="button"  style="text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 3px darkgrey" href="interests.html">Interests</button></b>
 	    <a href="https://www.linkedin.com/in/chinedumauche"> 
@@ -84,7 +84,7 @@
 	    text-align: center;
 	    text-decoration: none;
 	    display: inline-block;
-	    font-size: 130%;
+	    font-size: 150%;
     	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	    hover {background-color: #e7e7e7;}
 	    margin: 4px 2px;
@@ -182,8 +182,11 @@
     }
     });
 	
-//     // Smooth transition to About
-//     $()    
+    // Smooth transition to About
+    $("aboutBtn").click(function {
+	$('html, body').animate({
+	    scrollTop: "index.html#about"}, 'slow');
+    });    
 	
     </script>
   
