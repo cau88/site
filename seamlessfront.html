@@ -92,6 +92,11 @@
 	    transition-duration: 0.4s;
 	    cursor: pointer;
 	}
+	
+      li:hover a {
+	    color: #e7e7e7
+	    text-decoration: none;
+	}
 	       
       .titleTxt {
         position: absolute; 
@@ -182,15 +187,15 @@
     }
     });
 	
-    // Smooth transition to About
-    $("aboutBtn").click(function() {
-	$('html, body').animate({
-	    scrollTop: "index.html#about"}, 'slow');
-    }); 
+//     // Smooth transition to About
+//     $("aboutBtn").click(function() {
+// 	$('html, body').animate({
+// 	    scrollTop: "index.html#about"}, 'slow');
+//     }); 
 
-    document.getElementById("skillsBtn").onclick = function () {
-        location.href = "google.com";
-    };
+//     document.getElementById("skillsBtn").onclick = function () {
+//         location.href = "google.com";
+//     };
 	
     </script>
   
